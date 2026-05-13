@@ -7,7 +7,7 @@ data = {
 
 df = pd.DataFrame(data)
 
-print("Продажі по містах (тимчасова версія 2):")
+print("Продажі по містах:")
 print(df)
 
 print("Середнє значення:", df["sales"].mean())
